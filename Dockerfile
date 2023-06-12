@@ -5,7 +5,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 #copy required package from node image into workdirctory
-COPY package*.json /app
+COPY package*.json /app/
 
 #run npm install to install packages/dependencies
 RUN npm install
