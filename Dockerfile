@@ -13,7 +13,7 @@ RUN npm install
 #copy the source code into the workdirectory
 COPY . /app
 
-EXPOSE 7001
+EXPOSE 8000
 #run command when image is launching
 CMD ["node", "demoapp.js"]
 

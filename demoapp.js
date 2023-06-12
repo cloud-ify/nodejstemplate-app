@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 
 // Constants
-const PORT = process.env.PORT || 7001;
+const PORT = process.env.PORT;
 
 // App
 const app = express();
